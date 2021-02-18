@@ -7,7 +7,7 @@ use Exception\ConnectException;
 /*
  * 共用 Redis 
  */
-class Redis {
+class RedisLib {
     public $version = "1.0";
     
     private $redis = null;
