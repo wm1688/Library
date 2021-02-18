@@ -1,0 +1,22 @@
+{
+    "name": "wm1688/library",
+    "description": "wm1688 Library",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "yattbacw",
+            "email": "yattbacw@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4",
+        "monolog/monolog": "^2.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Common\\": "src/Common",
+            "Exception\\": "src/Exception"
+        }
+    }
+}
