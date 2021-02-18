@@ -1,5 +1,6 @@
 {
     "name": "wm1688/library",
+    "version": "1.0.0",
     "description": "wm1688 Library",
     "type": "library",
     "license": "MIT",
