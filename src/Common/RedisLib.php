@@ -14,8 +14,9 @@ class RedisLib {
 
     public function connect($ip="127.0.0.1", $port=6379, $db=0) {
         try {
-            $this->redis = new redis();
+            $this->redis = new \redis();
             if (!$this->redis->connect($ip, $port, $db)) {
+                // test
                 throw new ConnectException("connect Error!");
             }
         } catch (\Exception $e) {

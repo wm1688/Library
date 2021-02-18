@@ -16,8 +16,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Common\\": "src/Common",
-            "Exception\\": "src/Exception"
+            "Common\\": "src/Common"
         }
     }
 }
